@@ -8,8 +8,9 @@ LOG_FILE="${LOG_DIR}/collect.log"
 mkdir -p "$DATA_DIR"
 mkdir -p "$LOG_DIR"
 
-appids=("413150" "1145360" "1091500")
-names=("Stardew Valley" "Hades" "Cyberpunk 2077")
+appids=("413150" "1145360" "1091500" "1245620" "620" "105600" "367520" "1174180" "292030" "814380")
+names=("Stardew Valley" "Hades" "Cyberpunk 2077" "ELDEN RING" "Portal 2" "Terraria" "Hollow Knight" "Red Dead Redemption 2" "The Witcher 3: Wild Hunt" "Sekiro: Shadows Die Twice")
+
 
 for index in "${!appids[@]}"; do
     appid="${appids[$index]}"
